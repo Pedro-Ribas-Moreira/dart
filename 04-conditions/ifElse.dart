@@ -13,6 +13,10 @@ void main() {
     ' years'
   ];
 
-  print(list);
-  print(author.runtimeType);
+  if (answer != 42) {
+    print("wrong answer!");
+  } else {
+    print("the answer for the ultimate question of life is: $answer");
+    print("said " + list[0]);
+  }
 }
