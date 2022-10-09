@@ -12,5 +12,28 @@ void main() {
   List<String> listNames = [name1, name2, name3, name4, name5, name6];
   print(listNames[3]);
   print(listNames[num]);
+  print(listNames.length);
+
+  listNames.add("Douglas Adams");
+  List<String> sublList = listNames.sublist(1, 4);
+
   print(listNames);
+  print(sublList);
+
+  listNames.forEach((element) {
+    print(element);
+  });
+
+  if (listNames.contains("Douglas Adams")) {
+    print("this is the author");
+  } else {
+    print("author not found");
+  }
+  var p = listNames.reduce((value, element) {
+    return value + "// " + element;
+  });
+  print(p);
+
+  Iterable b = listNames.where((element) => element.length <= 8);
+  print(b);
 }
