@@ -15,10 +15,10 @@ void main() {
   print(listNames.length);
 
   listNames.add("Douglas Adams");
-  List<String> sublList = listNames.sublist(1, 4);
+  List<String> subList = listNames.sublist(1, 4);
 
   print(listNames);
-  print(sublList);
+  print(subList);
 
   listNames.forEach((element) {
     print(element);
