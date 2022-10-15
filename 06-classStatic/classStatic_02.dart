@@ -1,4 +1,4 @@
-import '../07-object-oriented-programming/enumSet.dart';
+import '../07-object_oriented_programming/enum_set.dart';
 
 void main(List<String> args) {
   Books newBook = Books("Lotr", "Tolkien");
