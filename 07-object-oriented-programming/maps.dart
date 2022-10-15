@@ -28,7 +28,6 @@ void main(List<String> args) {
 
   // adding more than one item;
   characters[newCharacter2.name] = newCharacter2.toMap();
-
   print(characters);
 }
 
